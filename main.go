@@ -29,6 +29,7 @@ func main() {
 			"--data":        complete.PredictFiles("*"),
 			"--form":        complete.PredictFiles("*"),
 		},
+		Args: complete.PredictSet("http://", "https://"),
 	}
 	complete.New("curl", run).Run()
 }

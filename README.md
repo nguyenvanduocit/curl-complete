@@ -3,8 +3,7 @@
 ## Installation
 
 ```
-go get github.com/nguyenvanduocit/curl-complete
-curl-complete -install
+go get github.com/nguyenvanduocit/curl-complete && curl-complete -install
 ```
 
 ## Usage
