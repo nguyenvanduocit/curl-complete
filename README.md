@@ -14,3 +14,10 @@ Reload your terminal then type:
 ```
 curl [tab]
 ```
+
+## Uninstall
+
+```
+curl-complete -uninstall
+go clean -i github.com/nguyenvanduocit/curl-complete
+```
